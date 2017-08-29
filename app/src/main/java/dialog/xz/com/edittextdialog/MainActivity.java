@@ -32,7 +32,14 @@ public class MainActivity extends AppCompatActivity {
                         SpannableString emotionContent = EmojiUtils.getEmotionContent(MainActivity.this, mShowTv, contentStr);
                         mShowTv.setText(emotionContent);
                     }
-                }).showDialog();
+                }).setEditTextDissmissListener(new EditTextDialog.EditTextDissmissListener() {
+                  @Override
+                  public void editTextContent(String contentStr) {
+                      //把文字里面的表情，转化显示
+                      SpannableString emotionContent = EmojiUtils.getEmotionContent(MainActivity.this, mShowTv, contentStr);
+                      mShowTv.setText(emotionContent);
+                  }
+              }).showDialog();
             }
         });
     }
