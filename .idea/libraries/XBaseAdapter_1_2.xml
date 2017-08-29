@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="XBaseAdapter-1.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/51e5b01ff659e751093fafa06e32f6b6bd232fc1/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/51e5b01ff659e751093fafa06e32f6b6bd232fc1/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Yuanarcheannovice/XBaseAdapter/1.2/24645076072054d8f5dcadae1981de770bca87e/XBaseAdapter-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

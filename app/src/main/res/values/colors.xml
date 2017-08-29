@@ -1,6 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+    <!--头部背景色-->
+    <color name="colorPrimaryDark">#02A47B</color>
+
+    <!-- 背景色-->
+    <color name="basecolor">#f5f5f5</color>
+
+    <!--app主色-->
+    <color name="app_main_color">#02c092</color>
+
+    <!--app 主色 浅色-->
+
+    <!--app 主色 深色-->
+    <color name="app_main_drak_color">#02A47B</color>
+
+    <!--app副色-->
+    <color name="app_sub_color">#ee6432</color>
+
+    <!--app副色 浅色-->
+
+    <!--app副色 深色-->
+    <color name="app_sub_drak_color">#ee6432</color>
+
+
+    <!--app红色-->
+    <color name="app_red">#FA505A</color>
+
+    <!--app黄色 -->
+    <color name="app_yellow">#f0be00</color>
+
+    <!--app橘黄色-->
+    <color name="app_ornage_color">#f08c0a</color>
+
+
+    <!--app橘黄色-->
+    <color name="app_ornage_light_color">#FDF4E7</color>
+
+    <!--app图片加载中，显示的颜色-->
+    <color name="app_image_error_color">#EEEEEE</color>
+
+    <!--app灰色-->
+    <color name="app_gray_color">#999999</color>
+
+    <!--app灰色 深色-->
+    <color name="app_gray_drak_color">#888888</color>
+
+    <!--app主白色-->
+    <color name="app_white_color">#ffffff</color>
+
+    <!--app主黑色-->
+    <color name="app_black_color">#262626</color>
+
+    <!--app主黑 浅色-->
+
+
+    <!--///////////文字色-->
+
+    <!--文字标准灰色-->
+    <color name="app_txt_gray">#666666</color>
+
+    <!--文字标准浅灰色-->
+    <color name="app_txt_gray_light">#999999</color>
+
+    <!-- 文字淡色-->
+    <color name="app_txt_gray_sublight">#bbbbbb</color>
+    //////////////////////////
+
+    <!--文字标准白色-->
+    <color name="app_txt_white">#ffffff</color>
+
+    <!--文字标准黑色-->
+    <color name="app_txt_black">#333333</color>
+
+    <!--文字标准浅黑色-->
+    <color name="app_txt_black_light">#666666</color>
+
+
+    <!--文字标准红色-->
+    <color name="app_txt_red">#f55028</color>
+
+
+    <!--文字蓝色-->
+    <color name="app_txt_blue">#05cdc8</color>
+
+
+    <!--app浅灰色-->
+    <color name="app_gray_light_color">#F0F0F0</color>
+
+    <!--app深灰色-->
+    <color name="app_gray_dark_color">#EFEFEF</color>
+
+    <!--评论列表默认色-->
+    <color name="comment_bg_color">#F1F1F1</color>
+
+    <!--app黄色  浅色-->
+
+
+    <!--//特殊颜色-->
+    <!--底部文字标准色-->
+    <color name="main_bottom_txt_color">#888888</color>
+
+    <!--底部图标标准色-->
+
+    <!--底部文字选中色-->
+    <color name="main_bottom_txt_selected">#eeeeee</color>
+
+    <!--listview的分割线-->
+    <color name="listview_divider_color">#E1E1E1</color>
+
+    <!--图标暗色-->
+    <color name="ico_gray_drak_color">#9E9E9E</color>
+
+
+    <!-- 黑色-->
+    <color name="black">#FF000000</color>
+    <!-- 白色-->
+    <color name="white">#ffffff</color>
+    <!-- 灰色-->
+    <color name="gary">#FF888888</color>
+    <!-- 浅灰色-->
+    <color name="gary_light">#FFeeeeee</color>
+    <!-- 橙色-->
+    <color name="orange">#fba45c</color>
+    <!-- 绿色-->
+    <color name="green">#64d20a</color>
+    <!-- 透明-->
+    <color name="transparent">#00000000</color>
+
+    <color name="Textgray">#c7c7c7</color>
+    <color name="divercolor2">#E1E1E1</color>
+    <color name="red_Light">#fdf3ed</color>
+    <!-- 标题背景颜色 -->
+
+    <color name="gary6">#FF666666</color>
+
+    <!--男性图标背景色-->
+    <color name="sex_man_bg">#bcc3e6</color>
+
+    <!--女性图标背景色-->
+    <color name="sex_woman_bg">#f3b4d1</color>
+
+    <color name="head_icon_color">#1d3773</color>
+
+    <!--半透明-->
+
 </resources>

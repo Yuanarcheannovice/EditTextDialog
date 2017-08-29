@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EBEBEB"
+    android:orientation="vertical">
+
+
+    <View
+        style="@style/Line_H"
+        android:layout_height="1dp"
+        android:background="#DFDFDF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="7dp">
+
+
+        <EditText
+            android:id="@+id/de_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="3"
+            android:background="@drawable/edit_bg_shape"
+            android:padding="7dp" />
+
+        <ImageView
+            android:id="@+id/de_ico"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/ico_face"
+           />
+
+        <TextView
+            android:id="@+id/de_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/edit_bt_no_shape"
+            android:paddingBottom="7dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="7dp"
+            android:text="发送"
+            android:textColor="@color/app_txt_gray_light"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/de_rv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/app_white_color"
+        android:padding="10dp"
+        android:visibility="gone" />
+</LinearLayout>
