@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 }).setEditTextDissmissListener(new EditTextDialog.EditTextDissmissListener() {
                   @Override
                   public void editTextContent(String contentStr) {
+                      //dialog消失时的文字
                       //把文字里面的表情，转化显示
                       SpannableString emotionContent = EmojiUtils.getEmotionContent(MainActivity.this, mShowTv, contentStr);
                       mShowTv.setText(emotionContent);
